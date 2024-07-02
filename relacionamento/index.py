@@ -17,8 +17,6 @@ class Circo:
     def apresentar(self, apresentador: Malambarismo | Palhaco)->None:
       apresentador.apresentar_show()
 
-
-
 circ = Circo()
 ma = Malambarismo()
 pa = Palhaco()
