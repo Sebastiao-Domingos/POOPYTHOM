@@ -1,16 +1,9 @@
+from solid import *
 
 
 
-class MyClass :
+cad = SistemaCadastro()
 
-    def sms(self):
-        print("ola POO")
+cad.cadastrar("Sebastiao",12)
 
-    def soma( self , num: int, num2 : int):
-        return num + num2
 
-myclass = MyClass()
-
-myclass.sms()
-
-print( myclass.soma(2,56))
