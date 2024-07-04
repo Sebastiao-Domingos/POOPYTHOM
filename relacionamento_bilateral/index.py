@@ -1,5 +1,4 @@
-from modulos.casa import Casa
-from modulos.pessoa import Pessoa
+from modulos import *
 
 casa_de_amigo = Casa()
 ana =Pessoa("Sebastiao Afonso Domingos")
